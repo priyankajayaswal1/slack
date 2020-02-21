@@ -73,3 +73,8 @@ dist
 build/
 
 .vscode/
+
+.dockerignore
+docker-compose.yml
+Dockerfile
+run_services.sh
