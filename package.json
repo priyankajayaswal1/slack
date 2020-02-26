@@ -9,7 +9,10 @@
     "lint": "eslint lib test",
     "dev": "nodemon --exec npm start",
     "debug": "nodemon --inspect --max-semi-space-size=64 ./lib/run.js",
-    "migrate": "sequelize db:migrate"
+    "create": "sequelize db:create",
+    "migrate": "sequelize db:migrate",
+    "createTest": "sequelize db:create --env test",
+    "migrateTest": "sequelize db:migrate --env test"
   },
   "dependencies": {
     "@keyv/redis": "github:integrations/keyv-redis#use-keys",
