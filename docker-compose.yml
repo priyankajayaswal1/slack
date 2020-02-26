@@ -1,0 +1,22 @@
+version: '3'
+services:
+  web:
+    image: slack-github-integration
+    build: ./
+    command: npm run dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - "postgresql"
+      - "redis"
+  postgresql:
+        image: postgres
+        ports:
+          - 5432:5432
+  redis:
+        image: redis
+        ports:
+          - 6379:6379
