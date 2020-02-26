@@ -22,6 +22,13 @@
  
 6. So now postgres, node and redis-rever is already running 
 
+### Chocolatey Installation:
+
+![installation](png-files/installation.png)
+
+### Redis Installation:
+
+![redis](png-files/redis-installation.png)
 
 # Project related configurations
 
