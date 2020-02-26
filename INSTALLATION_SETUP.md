@@ -34,10 +34,14 @@ Project related configurations
 5. Run `npm run createTest` followed by `npm run migrateTest`  for test environment - This would set up the Db and tables schema in postgresql [schema can be found in db\migrations folder -> can check for reference]
 6. Now we need to create .env file and popuate it from .env.example file
 7. Populate REDIS_URL="redis://localhost:6379" in .env file
-8. Run `npm run debug` to start service
-9. Create ngrok tunneling so that internet might listen to our service from outside using the command below. Use the reserved domain name:
+8. Open .env file created and follow steps to create STORAGE_SECRET and SESSION_SECRET.
+9. Run `npm run debug` to start service
+10. Create ngrok tunneling so that internet might listen to our service from outside using the command below. Use the reserved domain name:
   `ngrok http 3000 -subdomain=prjayaswlocal`     3000 is the port where the node service is running
-10. Now it's time to create a Slack App and a Github App. as per the details mentioned in Contributing.md file. 
+11. The webpage for this service can be accessed at http://<your-subdomain>.ngrok.io/
+12. Now it's time to create a Slack App and a Github App. as per the details mentioned in Contributing.md file.
+13. Github app - https://github.com/priyankajayaswal1/slack/blob/slack/CONTRIBUTING.md#configuring-a-github-app
+14. Slack App - https://github.com/priyankajayaswal1/slack/blob/slack/CONTRIBUTING.md#configuring-a-slack-app
 
 
 References:
