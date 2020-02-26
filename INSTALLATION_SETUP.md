@@ -24,11 +24,11 @@
 
 ### Chocolatey Installation:
 
-![installation](png-files/installation.png)
+![installation](https://github.com/priyankajayaswal1/slack/blob/slack/png-files/installation.PNG)
 
 ### Redis Installation:
 
-![redis](png-files/redis-installation.png)
+![redis](https://github.com/priyankajayaswal1/slack/blob/slack/png-files/redis-installation.PNG)
 
 # Project related configurations
 
