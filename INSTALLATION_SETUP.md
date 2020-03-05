@@ -2,7 +2,9 @@
 1. Setup nodejs and npm using Windows installer  from here https://nodejs.org/en/download/ - chocolatey would be installed along with this that would be helpful for later installations.
 2. Once chocolatey is installed install mysql using the following command in admin mode (remember to check log for Generated password for postgres user):
 `choco install mysql  redis-64 `
-3. Run `mysqld` to start mysql server as image below
+3. Update the environment variable with Mysql path. Location would be of this form "C:\tools\mysql\mysql-8.0.19-winx64\bin"  - Might differ for your system.
+[ env variable setting path -> Click on properties in This PC -> advanced System settings (on left panel) -> Environment variable -> Edit PATh and add above location)
+4. Run `mysqld` to start mysql server as image below
 ![mysql](https://github.com/priyankajayaswal1/slack/blob/slack/png-files/mysql.PNG)
 
 5. Run redis-server using command `redis-server` (If it down't work follow below steps and rerun this command)
